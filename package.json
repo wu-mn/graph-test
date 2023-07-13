@@ -9,14 +9,25 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@nivo/bar": "^0.83.0",
+    "@nivo/core": "^0.83.0",
+    "@nivo/treemap": "^0.83.0",
     "@types/node": "20.4.1",
     "@types/react": "18.2.14",
     "@types/react-dom": "18.2.6",
     "eslint": "8.44.0",
     "eslint-config-next": "13.4.9",
     "next": "13.4.9",
+    "prettier": "^3.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "recharts": "^2.7.2",
     "typescript": "5.1.6"
+  },
+  "lint-staged": {
+    "*.{html,css,md,json,yaml}": "prettier --write",
+    "*.{js,ts,tsx}": [
+      "prettier --write"
+    ]
   }
 }
