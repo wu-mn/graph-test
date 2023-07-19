@@ -1945,7 +1945,7 @@
   "resolved" "https://registry.npmmirror.com/natural-compare/-/natural-compare-1.4.0.tgz"
   "version" "1.4.0"
 
-"next@13.4.9":
+"next@^13.4.9":
   "integrity" "sha512-vtefFm/BWIi/eWOqf1GsmKG3cjKw1k3LjuefKRcL3iiLl3zWzFdPG3as6xtxrGO6gwTzzaO1ktL4oiHt/uvTjA=="
   "resolved" "https://registry.npmmirror.com/next/-/next-13.4.9.tgz"
   "version" "13.4.9"

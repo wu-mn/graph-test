@@ -7,8 +7,8 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div>
-        {/* <RenderLineChart /> */}
-        {/* <TreeMap /> */}
+        <RenderLineChart />
+        <TreeMap />
         <div style={{ height: "600px", width: "800px" }}>
           <MyResponsiveTreeMap />
         </div>
